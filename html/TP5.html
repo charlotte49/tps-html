@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Inscription des étudiants</title>
+  </head>
+  <body>
+    <h1>Inscription</h1>
+    <form>
+      <p>
+        <label for="nom">Nom :</label
+        ><input id="nom" type="text" placeholder="Ex: Lisangola" />
+      </p>
+      <p>
+        <label for="prénom">Prénom</label
+        ><input id="prénom" type="text" placeholder="Ex :Christian" />
+      </p>
+      <p>
+        <label for="lieuDeNaissance">Lieu de naissance :</label
+        ><input id="lieuDeNaissance" type="text" />
+      </p>
+      <p>
+        <label for="dateDeNaissance">Date de naissance :</label
+        ><input id="dateDeNaissance" type="date" />
+      </p>
+      <p>
+        <label>Pays d'origine :</label>
+        <select>
+          <option>France</option>
+          <option>Italie</option>
+          <option>Maroc</option>
+          <option>République Tchèque</option>
+        </select>
+      </p>
+      <p>
+        <label for="civilité">Civilité :</label
+        ><input id="civilité" type="text" placeholder="Ex : française" />
+      </p>
+      <p>
+        <label for="pourcentageOuMoyenneObtenuAuBac"
+          >Pourcentage ou moyenne obtenu au bac :</label
+        ><input id="pourcentageOuMoyenneObtenuAuBac" type="number" />
+      </p>
+      <p>
+        <label>Formation :</label><br />
+        <input type="checkbox" />Informatique<br />
+        <input type="checkbox" />Robotique<br />
+        <input type="checkbox" />Domotique<br />
+      </p>
+      <p>
+        <label for="dAutresChoixDeFormationPossible"
+          >D'autres choix de formation possible :</label
+        >
+        <textarea
+          id="dAutresChoixDeFormationPossible"
+          maxlength="50"
+        ></textarea>
+      </p>
+      <p>
+        <label for="email">Email :</label
+        ><input id="email" type="email" placeholder="Ex : jojo@gmail.com" />
+      </p>
+      <p>
+        <label for="numéroDeTéléphone">Numéro de téléphone :</label>
+        <input id="numéroDeTéléphone" type="tel" />
+      </p>
+      <p>
+        <label for="lettreDeMotivation">Lettre de motivation :</label>
+        <input id="lettreDeMotivation" type="file" />
+      </p>
+      <p>
+        <input type="submit" value="Soumettre" />
+      </p>
+    </form>
+  </body>
+</html>
