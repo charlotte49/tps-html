@@ -1,0 +1,62 @@
+.Align-text {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.center {
+  text-align: center;
+}
+.gras {
+  font-weight: 900;
+}
+.couleur-rouge {
+  color: red;
+}
+tbody > tr:nth-child(even) {
+  background-color: white;
+}
+.ligne-tab {
+}
+thead th {
+  background-color: black;
+  text-align: center;
+  color: blanchedalmond;
+  padding: 10px;
+}
+tbody td:nth-child(odd) {
+  font-weight: 600;
+  text-align: center;
+}
+tbody tr:hover {
+  background-color: #a2aebb;
+  cursor: pointer;
+}
+.tablmarg {
+  border-collapse: collapse;
+}
+body {
+  font-family: "Lato", sans-serif;
+  background-color: grey;
+}
+td {
+  padding: 10px;
+}
+.image {
+  border: 3px solid red;
+  border-radius: 5%;
+  background-color: darkslategrey;
+  text-align: center;
+
+  padding-top: 3%;
+  padding-right: 3%;
+  padding-bottom: 5%;
+}
+.img {
+  width: 80%;
+}
+h1 {
+  font-family: "Ephesis", cursive;
+}
+.paragraphe {
+  background-color: lightblue;
+  border: 3px blue;
+}

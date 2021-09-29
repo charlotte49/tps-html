@@ -1,0 +1,122 @@
+/* .text_red {
+  color: red;
+}
+.text_blue {
+  color: blue;
+}
+
+.gras {
+  font-weight: bold;
+} */
+/* .container-plan > h2 {
+  color: red;
+}
+div > p {
+  color: green;
+} */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  font-size: 20px;
+}
+
+.container-plan {
+  background-color: orange;
+  /* padding-top: 2px;
+    padding-bottom: 3px;
+    padding-left: 30px;
+    padding-right: 30px; */
+  padding: 2px 30px 3px 30px;
+  /* background-image: url("https://cdn.futura-sciences.com/buildsv6/images/wide1920/0/4/9/0495a1f8b6_50145213_plantes-fleurs-age.jpg"); */
+}
+.container-public {
+  background-image: url("https://nmgprod.s3.amazonaws.com/media/files/ac/8f/ac8fedfcc7a137703c4e81de6c84e65d/cover_image_1615470651.jpg.760x400_q85_crop_upscale.jpg");
+  text-align: justify;
+}
+P + div {
+  color: #000;
+}
+
+.text-bold {
+  font-weight: 500;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.new-px {
+  font-size: 15px;
+}
+
+.marginbottom {
+  margin-bottom: 60px;
+}
+
+.typescript_bloc {
+  background-image: url("https://pbs.twimg.com/profile_images/1155910518479228929/qG7LR_hW.png");
+  margin: 20px 0 20px 0;
+  padding: 20px;
+}
+.ts_title {
+  margin-bottom: 30px;
+}
+
+.gras {
+  margin-bottom: 50px;
+}
+
+.container-public {
+  padding: 30px;
+}
+.typescript_bloc {
+  font-family: "Raleway", sans-serif;
+}
+.ts_title {
+  color: red;
+  font-weight: 500;
+}
+.Red-lorem {
+  color: red;
+}
+
+.container-plan {
+  border: 10px solid red;
+}
+
+.typescript_bloc {
+  border: 10px solid orange;
+  border-radius: 20px 40px 60px 80px;
+}
+
+.para-1 {
+  text-decoration: overline;
+}
+
+.test {
+  background-color: orange;
+  height: 100px;
+  width: 50%;
+  border: 10px solid black;
+  margin: 0 auto;
+}
+
+.text-hovered:hover {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.typescript_bloc:hover {
+  border: 5px dotted indigo;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png");
+}
+
+tbody > tr:nth-child(even) {
+  background-color: red;
+}

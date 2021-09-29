@@ -1,0 +1,48 @@
+.text-red {
+  color: red;
+}
+
+.Align-text {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.center {
+  text-align: center;
+}
+
+.gras {
+  font-weight: 900;
+}
+
+tbody > tr:nth-child(even) {
+  background-color: white;
+}
+
+thead th {
+  background-color: black;
+  text-align: center;
+  color: blanchedalmond;
+}
+
+tbody td:nth-child(odd) {
+  font-weight: 600;
+  text-align: center;
+}
+
+tbody tr:hover {
+  background-color: #a2aebb;
+  cursor: pointer;
+}
+
+.tablmarg {
+  border-collapse: collapse;
+}
+
+body {
+  background-color: grey;
+}
+
+td {
+  padding-top: 10px;
+}
