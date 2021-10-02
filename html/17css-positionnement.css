@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-menu {
+  background-color: darkred;
+  height: 80px;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding-top: 50px;
+}

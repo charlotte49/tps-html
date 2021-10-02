@@ -1,0 +1,51 @@
+//body {
+//  background-color: brown;
+//}
+
+//h1 {
+//  color: brown;
+//}
+
+//p {
+//  color: cadetblue;
+//}
+
+//.colorblue {
+//  color: darkblue;
+//}
+
+//.textitalic {
+//  font-style: italic;
+//}
+
+//.textred {
+//  color: darkred;
+//}
+
+//.textblue {
+//  color: darkslateblue;
+//}
+
+//.gras {
+//  font-weight: bold;
+//}
+
+//div > * {
+//  background-color: firebrick;
+//}
+
+//div > p {
+//  color: blue;
+//}
+
+//div p {
+//  color: blue;
+//}
+
+.container-plan > h2 {
+  color: crimson;
+}
+
+div > p {
+  color: darkgreen;
+}

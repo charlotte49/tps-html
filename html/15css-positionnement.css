@@ -1,0 +1,19 @@
+.boite {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}
+.boite-orange {
+  background-color: rgb(247, 245, 243);
+  position: fixed;
+  font-weight: bold;
+}
+.helloworld {
+  margin: 50px 0 0 0;
+}
+.boite-verte {
+  background-color: darkgreen;
+}
+.boite-bleue {
+  background-color: darkslateblue;
+}
