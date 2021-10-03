@@ -3,6 +3,7 @@
   display: grid;
   /* grid-template-columns: 1fr 1fr 1fr; */
   grid-template-columns: repeat(3, 1fr);
+  /*grid-template-rows: 200px 100px 300px 50px;*/
   grid-auto-rows: 300px;
   grid-template-areas:
     "premier premier premier"
@@ -21,6 +22,7 @@
 }
 
 .child:nth-child(1) {
+  background-color: brown;
   grid-area: premier;
 }
 
@@ -30,6 +32,16 @@
 
 .child:nth-child(3) {
   grid-area: troisieme;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.a {
+  background-color: yellow;
+}
+
+.b {
+  background-color: green;
 }
 
 .child:nth-child(4) {

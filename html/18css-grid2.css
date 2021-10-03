@@ -14,19 +14,22 @@
   .parent {
     grid-auto-rows: 300px;
   }
-  /* .child {
-      background-color: yellow;
-    } */
+
+  .child {
+    background-color: yellow;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .parent {
     grid-template-columns: repeat(2, 1fr);
   }
-  /* .child {
-      background-color: green;
-    } */
+
+  .child {
+    background-color: green;
+  }
 }
+
 @media screen and (min-width: 992px) {
   .parent {
     grid-template-columns: repeat(3, 1fr);
@@ -71,10 +74,11 @@
     grid-area: huitieme;
   }
 
-  /* .child {
-      background-color: blue;
-    } */
+  .child {
+    background-color: blue;
+  }
 }
+
 @media screen and (min-width: 1200px) {
   .parent {
     grid-template-columns: repeat(4, 1fr);
@@ -118,7 +122,8 @@
   .child:nth-child(8) {
     grid-area: huitieme;
   }
-  /* .child {
-      background-color: orangered;
-    } */
+
+  .child {
+    background-color: orangered;
+  }
 }

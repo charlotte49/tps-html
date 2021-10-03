@@ -1,0 +1,174 @@
+.parent {
+  display: grid;
+  margin: 10px 10px 10px 10px;
+}
+
+.navigationMenu {
+  border: 1px solid black;
+  display: grid;
+}
+
+.logo {
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.services {
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.expertise {
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact {
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.imageDeBanniere {
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.aPropos {
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.lienRapide {
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.lienRapide2 {
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.piedDePage {
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 480px) {
+  .parent {
+    grid-template-rows: 300px 200px 300px 100px 100px 100px;
+    grid-gap: 20px;
+  }
+
+  .navigationMenu {
+    padding: 8px 8px 8px 8px;
+    grid-gap: 10px;
+  }
+
+  .logo {
+    padding-top: 25px;
+  }
+
+  .services {
+    padding-top: 25px;
+  }
+
+  .expertise {
+    padding-top: 25px;
+  }
+
+  .contact {
+    padding-top: 25px;
+  }
+
+  .imageDeBanniere {
+    padding-top: 90px;
+  }
+
+  .aPropos {
+    padding-top: 140px;
+  }
+
+  .lienRapide {
+    padding-top: 40px;
+  }
+
+  .lienRapide2 {
+    padding-top: 40px;
+  }
+
+  .piedDePage {
+    padding-top: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .parent {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 75px 250px 250px 100px 100px;
+    grid-template-areas:
+      "navigationMenu navigationMenu navigationMenu"
+      "imageDeBanniere imageDeBanniere imageDeBanniere"
+      "aPropos aPropos lienRapide"
+      "aPropos aPropos lienRapide2"
+      "piedDePage piedDePage piedDePage";
+    grid-gap: 20px;
+  }
+
+  .navigationMenu {
+    grid-area: navigationMenu;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 50px;
+    padding: 8px 8px 8px 8px;
+  }
+
+  .logo {
+    padding-top: 10px;
+  }
+
+  .services {
+    padding-top: 10px;
+  }
+
+  .expertise {
+    padding-top: 10px;
+  }
+
+  .contact {
+    padding-top: 10px;
+  }
+
+  .imageDeBanniere {
+    grid-area: imageDeBanniere;
+    padding-top: 125px;
+  }
+
+  .aPropos {
+    grid-area: aPropos;
+    padding-top: 175px;
+  }
+
+  .lienRapide {
+    grid-area: lienRapide;
+    padding-top: 130px;
+  }
+
+  .lienRapide2 {
+    grid-area: lienRapide2;
+    padding-top: 30px;
+  }
+
+  .piedDePage {
+    grid-area: piedDePage;
+    padding-top: 30px;
+  }
+}
