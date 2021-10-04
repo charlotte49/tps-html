@@ -1,7 +1,7 @@
 let nbrDebut = parseInt(prompt("Veuillez entre nombre de debut :"));
 let nbrFin = parseInt(prompt("Veuillez entrer nombre de fin :"));
 let tabDebut = parseInt(prompt("Veuillez entrer table de début :"));
-let tabFin = parseInt(prompt("Veuillez entrertable de fin :"));
+let tabFin = parseInt(prompt("Veuillez entrer table de fin :"));
 let calcul = 0;
 for (let i = nbrDebut; i < nbrFin + 1; i++) {
   for (let j = tabDebut; j < tabFin + 1; j++) {
