@@ -36,7 +36,7 @@ for (let i = 0; i < etudiants.length; i++) {
   console.log(etudiants[i]);
 }
 
-document.write("<h1>Etudiants</h1>");
+/*document.write("<h1>Etudiants</h1>");
 document.write(
   '<table border="1"><thead><tr><th>Nom</th><th>Prénom</th><th>Age</th><th>Genre</th><th>Pays</th><th>Option</th><th>Liste des cours</th></tr></thead><tbody>'
 );
@@ -45,4 +45,4 @@ for (let i = 0; i < etudiants.length; i++) {
     `<tr><td>${etudiants[i].nom}</td><td>${etudiants[i].prenom}</td><td>${etudiants[i].age}</td><td>${etudiants[i].genre}</td><td>${etudiants[i].pays}</td><td>${etudiants[i].option}</td><td>${etudiants[i].listeDesCours}</td></tr>`
   );
 }
-document("</tbody></table>");
+document("</tbody></table>");*/
