@@ -10,7 +10,7 @@ const form = document.querySelector("#form");
 
 const tabEtudiants = document.querySelector("#tabEtudiants");
 
-form.addEventListener("submit", function (e) {
+form.addEventListener("button", function (e) {
   e.preventDefault();
   const tr = document.createElement("tr");
 

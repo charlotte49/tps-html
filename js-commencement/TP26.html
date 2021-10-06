@@ -2,21 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <h3>Fiche d'inscription pour les étudiants</h3>
-    <form id="form">
+    <div id="formError"></div>
+    <form id="inscription">
       <input id="nom" placeholder="Nom" /><br />
       <input id="prenom" placeholder="Prenom" /><br />
       <input id="age" placeholder="Age" /><br />
       <input id="genre" placeholder="Genre" /><br />
       <input id="pays" placeholder="Pays" /><br />
       <input id="option" placeholder="Option" /><br />
-      <input id="listeDesCours" placeholder="Liste des cours" /><br />
-      <input type="button" value="Envoyer" />
+      <input id="listeCours" placeholder="Liste des cours" /><br />
+      <input type="submit" value="Envoyer" />
     </form>
 
     <h2>Tableau</h2>
@@ -32,9 +34,9 @@
           <th>Liste des cours</th>
         </tr>
       </thead>
-      <tbody id="tabEtudiants"></tbody>
+      <tbody id="tableauEtudiants"></tbody>
     </table>
 
-    <script src="tp24.js" type="text/javascript"></script>
+    <script src="./app.js" type="text/javascript"></script>
   </body>
 </html>
