@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+    crossorigin="anonymous"
+  ></script>
+  <body>
+    <div class="container">
+      <!--Navbar-->
+      <nav
+        class="margin-nav navbar navbar-expand-lg my-1 text-uppercase"
+        id="mainNav"
+      >
+        <div class="container">
+          <a class="navbar-brand text-gras" href="index.html">Logo</a>
+          <button
+            class="
+              navbar-toggler
+              text-uppercase
+              font-weight-bold
+              text-white
+              rounded
+            "
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  class="active"
+                  aria-current="page"
+                  href="index.html"
+                  >Accueil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./listesDesStagiaires.html"
+                  >Nos Stagiaires</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Premire ligne (image)-->
+
+      <div
+        class="jumbotron p-3 p-md-5 text-white rounded bg-dark premiere-image"
+      ></div>
+      <div class="row mt-4">
+        <div class="col-md-8">
+          <div class="my-card" style="height: 100%">
+            <div class="card-body">
+              <h3>Groupe 1 POEI Salesforce</h3>
+              <div class="card">
+                <iframe
+                  src="https://prezi.com/v/embed/w1k2cupwp6av/"
+                  frameborder="0"
+                  height="500"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="pb-3">
+            <div class="my-card">
+              <div class="card-body green-card">
+                <h3>Objectif de la formation</h3>
+                <p class="card-text">
+                  La préparation du stagiaire pour être capable de commencer sur
+                  le module Salesforce avec tous les acquis nécessaires, cela
+                  veut dire les bases de la programmation front avec du HTML,
+                  Css et Javascript ainsi que des outils , comme le git pour le
+                  versioning et Jira pour la méthode Agile..
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="my-card">
+                <div class="card-body green-card">
+                  <h3>Déroulement</h3>
+                  <p class="card-text">
+                    La formation se déroule à distance via Teams, avec un
+                    formateur . les cours sont fragmentés en module après chaque
+                    module, des tps qui permettent de savoir le pourcentage de
+                    validation d'acquis du groupe .
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Fin Premire ligne -->
+      <!--Deuxieme ligne -->
+
+      <div class="mt-4">
+        <div class="row row-cols-1 row-cols-3 g-4">
+          <div class="col">
+            <div class="float-start my-image img-fluid">
+              <img
+                src="img/html.png"
+                class="rounded-circle img-thumbnail"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="my-image img-fluid">
+              <img
+                src="img/ordinateur.png"
+                class="rounded-circle img-thumbnail"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="float-end my-image img-fluid">
+              <img
+                src="img/css.png"
+                class="rounded-circle img-thumbnail"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Fin Deuxieme ligne -->
+      <!-- Footer-->
+      <footer class="footer text-center mt-4">
+        <div class="container">
+          <div class="row">
+            <!-- Footer Location-->
+            <div class="col-md-6 my-2">
+              <h5>Notre adresse</h5>
+
+              Entre Paris et Nantes sur un Chemin de Teams S21 numéro 003658
+            </div>
+
+            <div class="col-md-6 my-2">
+              <form>
+                <h5>S'inscrire a la newsletter</h5>
+                <div class="d-flex w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden"
+                    >Votre adresse mail</label
+                  >
+                  <input
+                    id="newsletter1"
+                    type="text"
+                    class="form-control"
+                    placeholder="Adresse mail"
+                  />
+                  <button class="btn btn-primary" type="button">
+                    S'inscrire
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+    integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+</html>
